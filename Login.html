@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function validate(){
+            var username=document.getElementById("username").value;
+            var password=document.getElementById("password").value;
+            if (username=="anson" && password=="Student"){
+                alert("Login Successful");
+                window.open("index.html");
+            }
+            else{
+                alert("Invalid username or password");
+            }
+
+        }
+    </script>
+</head>
+<style>
+    body{
+        height: 100vh;
+        background-color: rgb(72, 42, 107);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+</style>
+<body>
+    <center> <img src="Logo1.png" alt="vignan" height="9%" width="30%"></center>
+    <nav class="navbar">
+           
+        <ul >
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Login.html">Login</a></li>
+            <li><a href="regist.html">Registration</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="Depar.html">Department</a></li>
+            <li><a href="studen.html">Student</a></li>
+            <li><a href="TnP.html">Placement</a></li>
+            <li><a href="Stuacainfo.html">Contact us</a></li>
+         </ul>
+        </nav>
+        <br>
+        <div class="bg">
+            <div class="container">
+                <h1>Login Page</h1><br>
+                <form action="">
+                    <div class="box">
+                        <p>Username</p>
+                        <input type="text" id="username" class="input-box"  placeholder="Enter Username">
+                        <br>
+                        <br>
+                        <p>Password</p>
+                        <input type="password" id="password" class="input-box"  placeholder="Enter Password">
+                        <br>
+                        <br>
+                        <input type="submit" value="Submit" onclick="validate()"><br><br>
+                        <center>
+                        <a href="">Forgot Password?</a><br><br>
+                        <p> <em> OR </em></p>
+                        <br>
+                        <a href="regist.html">Sign Up</a></center>
+                    </div>
+                </form>
+            </div>
+        </div>
+</body>
+
+</html>
+
+
+
+

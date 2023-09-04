@@ -1,0 +1,176 @@
+.container p{
+    font-size: bold;
+    font-size: 22px;
+}
+.container .input-box{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.container input[type="text"], input[type="password"],input[type="email"],input[type="number"],input[type="date"]
+{
+    border:none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    height: 40px;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 18px;
+}
+.container input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color: #fff;
+    color: #000;
+    font-size: 20px;
+    border-radius: 18px;
+    font-weight: bolder;
+}
+
+
+.navbar{
+    margin: 0px 10px 0px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    
+    background:grey;
+   
+}
+.link-group{
+    list-style: none;
+    display: flex;
+}
+.link a{
+    color:white;
+    opacity: 0.5;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    margin: 0 20px;
+    line-height: 80px;
+    transition: .5s;
+    font-size: 20px;
+}
+
+.link a:hover, .link.active a{
+    opacity: 1;
+}
+
+
+
+
+
+.loginbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: black;
+    color: white;
+}
+
+
+
+
+
+
+ <div class="container">
+                <h1>Login Page</h1><br>
+                <form action="">
+                    <div class="box">
+                        <p>Username</p>
+                        <input type="text" class="input-box"  placeholder="Enter Username">
+                        <p>Password</p>
+                        <input type="password" class="input-box"  placeholder="Enter Password">
+                        <input type="submit" value="Login"><br><br>
+                        <a href="">Forgot Password?</a>
+                        <a href="Registration.html">Sign Up</a>
+                    </div>
+                </form>
+            </div>
+
+
+
+
+
+
+
+
+.form input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color: #fff;
+    color: #000;
+    font-size: 20px;
+    border-radius: 18px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #000;
+}
+ 
+.btn:focus{
+    outline: none;
+}
+.form{
+    width: 700px;
+    max-height: 200vh;
+    background: darkgray;
+    color: black;
+    font-weight: bolder;
+    box-sizing: border-box;
+    border-radius: 16px;
+    padding: 70px 30px;
+}
+.form p{
+    font-size: bold;
+    font-size: 22px;
+}
+
+.form h2{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+}
+
+.form .input-box{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.form input[type="text"], input[type="password"],input[type="email"],input[type="number"],input[type="date"]
+{
+    border:none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    height: 40px;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 18px;
+}
+
+
+
+<center>
+    <div class="form">
+        <h2>Login </h2>
+        <input type="email" class="input-box" placeholder="Enter your email"><br>
+        <input type="password" class="input-box"  placeholder="Enter your name"><br>
+        <input type="submit" value="Login"><br><br>
+        <p class="link">Don't have an account</p><br>
+        <br>
+        <p class="link">Forgot password</p>
+       </div>
+</center>
+
+
+
+
+
+
+
